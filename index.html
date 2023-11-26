@@ -1,1 +1,345 @@
+<!DOCTYPE html>
+<html lang="fa">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مهرآیین</title>
+<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--برای نمایش توسط مرورگر :  -->
+<link rel="stylesheet" href="Mehr.css" media="screen">
+<!--برای نمایش هنگام پرینت کردن صفحه -->
+<link rel="stylesheet" href="Mehr.css" media="print">
+<!--برای نمایش صفحه در انواع PDA  -->
+<link rel="stylesheet" href="Mehr.css" media="handheld">
+<!--به ازای کلیه دستگاهها لود می شود -->
+<link rel="stylesheet" href="Mehr.css" media="all">
+<script type="text/javascript" src="Mehr.js"></script>
+<script type="text/javascript" src="Mehr.js"></script>
+<link rel="shortcut icon" href="" />
+</head>
 
+<body>
+<header>
+<!-- ------------------------------------------------------top menu--------------------------- --> 
+<div class="navbar">
+  <a href="#main">صفحه اصلی</a>
+  <a href="#educational">آموزشی</a>
+  <!--
+  <div class="subnav">
+    <a href="#educational" class="subnavbtn">آموزشی<i class="fa fa-caret-down"></i></a>
+    <div class="subnav-content">
+      <a href="#company">ریاضی</a>
+      <a href="#team">علوم</a>
+      <a href="#careers">مطالعات اجتماعی</a>
+	  <a href="#careers">پیام های آسمانی</a>
+    </div>
+  </div>
+  -->
+  <a href="#gallery">گالری</a>
+  <a href="#news">اخبار</a>
+  <a href="#footer">درباره ما</a>
+  <a href="#contactUs">تماس با ما</a>
+  <button class="navbarbtn" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">ورود کاربران</button>
+</div>
+<!-- ----------------------------------------------- End of top menu--------------------------- -->
+	
+<div class="container" id="main">
+	<div class="parallax fade"></div>
+	<div class="parallax pic2 fade"></div>
+	<div class="parallax pic3 fade"></div>
+	<div class="parallax pic4 fade"></div>
+	<div class="parallax pic5 fade"></div>
+	<div class="parallax pic6 fade"></div>
+</div>
+	
+</header>
+	
+
+<section>
+<!--------------------------------------------------  educational ----------------------------------->
+<article id="educational">
+	
+	<div class="main clear">
+	<h1>مطالب آموزشی</h1>
+	<hr>
+	<div id="BtnfilterContainer">
+  		<button class="mainbtn" onclick="filterSelection('science')"> علوم</button>
+  		<button class="mainbtn" onclick="filterSelection('mat')"> ریاضی</button>
+		<button class="mainbtn" onclick="filterSelection('social')"> مطالعات اجتماعی</button>
+		<button class="mainbtn" onclick="filterSelection('heavenlymessages')">پیام های آسمانی</button>
+	</div>
+
+<!------------------------------------------- Gallery Educational Grid ------------------------->
+<div class="row">
+  <div class="column science">
+    <div class="content">
+      <video width="100%" height="200px" controls>
+  		<source src="video/تنظیم هورمونی.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	  </video>
+      <p class="description">تنظیم هورمونی</p>
+    </div>
+  </div>
+  <div class="column science">
+    <div class="content">
+	 <video width="100%" height="200px"  controls>
+  		<source src="video/ساختار چشم.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	 </video>
+      <p class="description">ساختار چشم</p>
+    </div>
+  </div>
+  <div class="column science">
+    <div class="content">
+	 <video width="100%" height="200px"  controls>
+  		<source src="video/واکنش سدیم و آب.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	 </video>
+      <p class="description">واکنش سدیم و آب</p>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------->
+  <div class="column mat">
+    <div class="content">
+	  <video width="100%" height="200px"  controls>
+  		<source src="video/ریاضی فصل دوم عددهای اول و مرکب.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	  </video>
+      <p class="description">فصل دوم ریاضی<br> عددهای اول و مرکب</p>
+    </div>
+  </div>
+  <div class="column mat">
+    <div class="content">
+	 <video width="100%" height="200px"  controls>
+  		<source src="video/-فصل اول - معرفی اعداد صحیح و گویا ریاضی.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	 </video>
+      <p class="description">فصل اول ریاضی<br> عداد صحیح و گویا</p>
+    </div>
+  </div>
+  <div class="column mat">
+    <div class="content">
+	 <video width="100%" height="200px"  controls>
+  		<source src="video/ریاضی فصل اول عددهای صحیح و گویا.mp4" type="video/mp4">
+  		Your browser does not support HTML5 video.
+	 </video>
+      <p class="description">فصل اول ریاضی<br> عداد صحیح و گویا</p>
+    </div>
+  </div>
+<!------------------------------------------------------------------------------------->
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</article>
+<!-- **************************************************************************************** -->
+
+</article>
+<!--------------------------------------------------  NEWS ----------------------------------->
+<article id="news">
+<div class="main clear">
+	<h1> خبرها و اطلاعیه ها</h1>
+	<hr>
+	<div id="BtnfilterContainer">
+  		<button class="mainbtn" onclick="filterSelection('mostpopular')"> مهم ترین خبرها</button>
+  		<button class="mainbtn" onclick="filterSelection('new')"> تازه ترین خبرها</button>
+	</div>
+
+<!------------------------------------------- Gallery NEWS Grid ------------------------->
+<div class="row">
+  <div class="column mostpopular">
+    <div class="content">
+      <img src="images/1.jpg" alt="مهم ترین خبرها" style="width:100%">
+      <p class="date">جهارشنبه،۳ آذر</p>
+      <p class="description">فعالیت های درس فرهنگ و هنر</p>
+    </div>
+  </div>
+  <div class="column mostpopular">
+    <div class="content">
+    <img src="images/2.jpg" alt="مهم ترین خبرها" style="width:100%">
+      <p class="date">جهارشنبه،۳ آذر</p>
+      <p class="description">فعالیت های درس فرهنگ و هنر</p>
+    </div>
+  </div>
+  <div class="column mostpopular">
+    <div class="content">
+    <img src="images/3.jpg" alt="مهم ترین خبرها" style="width:100%">
+      <p class="date">جهارشنبه،۳ آذر</p>
+      <p class="description">فعالیت های درس فرهنگ و هنر</p>
+    </div>
+  </div>
+   <!------------------------------------------------------------------------------------->
+  <div class="column new">
+    <div class="content">
+      <img src="images/1/438715368_217390.jpg" alt="تازه ترین خبرها" style="width:100%">
+      <p class="date">جهارشنبه،۳ آذر</p>
+      <p class="description">فعالیت های درس فرهنگ و هنر</p>
+    </div>
+  </div>
+  <div class="column new">
+    <div class="content">
+    <img src="images/1/438815197_250047.jpg" alt="تازه ترین خبرها" style="width:100%">
+      <p class="date">جهارشنبه،۳ آذر</p>
+      <p class="description">فعالیت های درس فرهنگ و هنر</p>
+    </div>
+  </div>
+  <div class="column new">
+    <div class="content">
+    <img src="images/1/445605066_126716.jpg" alt="تازه ترین خبرها" style="width:100%">
+      <p class="date">جهارشنبه،۳ آذر</p>
+      <p class="description">فعالیت های درس فرهنگ و هنر</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</article>
+<!-- **************************************************************************************** -->
+
+	
+<!---------------------------------------------- gallery ---------------------------------------->
+<article id="gallery">
+	<div class="clear">
+		<h1 style="text-align: center"> گالری تصاویر</h1>
+		<div id="carousel-gallery"></div>
+	</div>
+</article>
+
+</section>
+
+<!-- **************************************************************************************** -->
+  <!-- Footer -->
+ <footer id="footer">
+	<div class="clear">
+	 	<div class="small-mobile-font" style="float:right !important; font-size:16px; padding-right:40px;width:100%;text-align:justify!important;">
+        	<p><i class="large-mobile-font" style="font-size:24px">
+        		دبیرستان مهرآیین</i></p><br>
+			<p><i class="fa fa-map-marker fa-fw"></i><i style="font-size:۱۸px">آدرس : شیراز بلوار میرزا کوچک خان جنگلی روبروی منبع آب دبیرستان مهرآیین</i></p><br>
+        	<p><i class="fa fa-fw fa-phone"></i> ۰۷۱۳۶۲۴۷۷۷۵</p>
+        	<br>
+			<div id="googleMap" style="width:500;height:300px;"><img src="images/map.png"></div>
+      </div>
+	</div>
+	 <hr style="margin: 80px;">
+	<div class="clear" id="contactUs">
+        <h4>تماس با ما</h4><br>
+        <p>با ما در تماس باشید</p>
+        <form method="post" target="_self">
+          <p><input class="footer-input" type="text" placeholder="نام ..." name="Name" required>
+          <span class="error"> <?php echo $nameErr;?></span>
+          </p>
+          <p><input class="footer-input" type="text" placeholder="Email ..." name="Email" required >
+          <span class="error"> <?php echo $emailErr;?></span>
+          </p>
+          <p><input class="footer-input" type="text" placeholder="پیام ..." name="Message" required></p>
+          <button type="submit" class="footerbtn " name="submit" value="Submit">ارسال</button>
+        </form>
+    </div>  
+  </footer>
+	
+<div class="footer-bottom" style="outline: none;">طراحی و توسعه توسط <br><span style="font-family: 'Alex Brush' !important;">BaLeiLa</span></div>
+	
+<!-- **************************************************************************************** -->	
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("parallax");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+	
+    slides[slideIndex-1].style.display = "block";  ;
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+	
+<!-- **************************************************************************************** -->
+<script type='text/javascript'>
+carousel({id:'', //Enter arbitrary but unique ID of this slideshow instance
+border:'',
+size_mode:'image', //Enter "carousel" or "image". Affects the width and height parameters below.
+width:800, //Enter width of image or entire carousel, depending on above value
+height:500, //Enter height of image or entire carousel, depending on above value
+sides:6, //# of sides of the carousel. What's shown = sides/2. Even integer with sides/2< total images is best
+steps:96, //# of animation steps. More = smoother, but more CPU intensive
+speed:2, //Speed of slideshow. Larger = faster.
+direction:'left', //Direction of slideshow. Enter "top", "bottom", "left", or "right"
+
+// تصاویر اسلایدشو --------
+images:[
+'images/1.jpg',
+'images/2.jpg',
+'images/3.jpg',
+'images/4.jpg',
+'images/5.jpg',
+'images/6.jpg'
+],
+
+// تنظیم پهنا و رنگ حاشیه تصاویر -------
+image_border_width:5,
+image_border_color:'#000'
+
+});
+</script>
+	
+<!-- **************************************************************************************** -->	
+<script>	
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+  }
+}
+
+function AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("BtnfilterContainer");
+var btns = btnContainer.getElementsByClassName("mainbtn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+	
+</body>
+</html>
